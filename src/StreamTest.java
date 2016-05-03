@@ -11,5 +11,7 @@ public class StreamTest {
         
         Stream<Date> stream = Stream.generate(() -> { return new Date();});
         stream.forEach(p -> System.out.println(p));
+        
+        System.out.println("hello new commit");
     }
 }
